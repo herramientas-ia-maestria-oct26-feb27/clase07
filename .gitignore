@@ -1,0 +1,46 @@
+# =====================================
+# Jupyter Notebook
+# =====================================
+
+# Archivos temporales y checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# =====================================
+# Python
+# =====================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# =====================================
+# Variables de entorno y credenciales
+# =====================================
+
+.env
+.env.*
+!.env.plantilla
+!.env.example
+
+# =====================================
+# MLflow
+# =====================================
+
+mlruns/
+mlartifacts/
+mlflow.db
+
+# =====================================
+# Archivos temporales
+# =====================================
+
+*.log
+*.tmp
+.DS_Store
